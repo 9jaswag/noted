@@ -63,8 +63,6 @@ flutter:
           weight: 400
         - asset: fonts/NunitoSans-SemiBold.ttf
           weight: 600
-        - asset: fonts/NunitoSans-Light.ttf
-          weight: 300
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
