@@ -35,4 +35,16 @@ class Search extends SearchDelegate<String> {
     final suggestionList = query.isEmpty ? 'Show Suggestions' : 'result';
     return Text('Hi');
   }
+
+  // ThemeData appBarTheme(BuildContext context) {
+  //   assert(context != null);
+  //   final ThemeData theme = Theme.of(context);
+  //   assert(theme != null);
+  //   return theme.copyWith(
+  //     primaryColor: Colors.white,
+  //     primaryIconTheme: theme.primaryIconTheme.copyWith(color: Colors.grey),
+  //     primaryColorBrightness: Brightness.light,
+  //     primaryTextTheme: theme.textTheme,
+  //   );
+  // }
 }

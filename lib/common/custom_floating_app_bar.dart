@@ -17,7 +17,7 @@ class CustomFloatingAppBar extends StatelessWidget {
       child: Material(
         color: Colors.white,
         borderRadius: BorderRadius.circular(8.0),
-        elevation: 2.0,
+        elevation: 1.5,
         child: ListTile(
           leading: GestureDetector(
             child: Icon(Icons.menu),
@@ -26,7 +26,7 @@ class CustomFloatingAppBar extends StatelessWidget {
           title: GestureDetector(
             child: Text(
               "Search your notes",
-              style: TextStyle(color: Colors.grey),
+              style: TextStyle(color: Colors.grey[600], fontSize: 14.0),
             ),
             onTap: () => showSearch(context: context, delegate: Search()),
           ),
