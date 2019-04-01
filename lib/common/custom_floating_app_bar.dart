@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:noted/screens/search.dart';
 
 class CustomFloatingAppBar extends StatelessWidget {
   const CustomFloatingAppBar({
@@ -27,7 +28,7 @@ class CustomFloatingAppBar extends StatelessWidget {
               "Search your notes",
               style: TextStyle(color: Colors.grey),
             ),
-            onTap: null,
+            onTap: () => showSearch(context: context, delegate: Search()),
           ),
           trailing: GestureDetector(
             child: Icon(Icons.view_stream),
